@@ -1,13 +1,16 @@
 package dev.kugge.kaiitab.watcher;
 
 import dev.kugge.kaiitab.Kaiitab;
-import io.papermc.paper.threadedregions.TickData;import io.papermc.paper.threadedregions.TickRegionScheduler;
+import io.papermc.paper.threadedregions.TickData;
+import io.papermc.paper.threadedregions.TickRegionScheduler;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
-import org.bukkit.Bukkit;import org.bukkit.entity.Player;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerLoginEvent;import java.util.concurrent.TimeUnit;
+import org.bukkit.event.player.PlayerLoginEvent;
+import java.util.concurrent.TimeUnit;
 
 public class LoginWatcher implements Listener {
     @EventHandler
