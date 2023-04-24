@@ -1,0 +1,7 @@
+name: Kaiitab
+version: ${version}
+main: dev.kugge.kaiitab.Kaiitab
+api-version: 1.19
+folia-supported: true
+authors: [kugge]
+description: Simple TAB plugin for Folia
